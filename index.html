@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-app="EpamApp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div ng-controller="EpamController as epam">
+      <ul>
+        <li>test total is {{epam.testTotal('test')}}.</li>
+        <li>test2 total is {{epam.testTotal('test2')}}.</li>
+      </ul>
+    </div>
+  </body>
+</html>
